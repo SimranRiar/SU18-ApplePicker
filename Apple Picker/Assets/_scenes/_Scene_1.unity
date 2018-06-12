@@ -157,12 +157,17 @@ Prefab:
     - target: {fileID: 114311589059361240, guid: 97290c638b0b5ad41957b542892d89e3,
         type: 2}
       propertyPath: speed
-      value: 5
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 54500661837732012, guid: 97290c638b0b5ad41957b542892d89e3,
         type: 2}
       propertyPath: m_IsKinematic
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114311589059361240, guid: 97290c638b0b5ad41957b542892d89e3,
+        type: 2}
+      propertyPath: secondsBetweenAppleDrops
+      value: 0.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 97290c638b0b5ad41957b542892d89e3, type: 2}
