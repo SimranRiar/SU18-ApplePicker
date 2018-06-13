@@ -10,6 +10,7 @@ public class Apple : MonoBehaviour {
 		
         if (transform.position.y < bottomY)
         {
+            Debug.Log("Apple Hit Ground");
             Destroy(this.gameObject);
 
             ApplePicker apScript = Camera.main.GetComponent<ApplePicker>();
